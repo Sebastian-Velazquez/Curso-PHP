@@ -5,4 +5,5 @@
     }
 
 
+    //se puede separar en html y php para merjorar las practicas
 ?>
