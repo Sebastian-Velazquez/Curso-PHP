@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-</head>
-<body>
-    Hola, soy tu portafolio
-</body>
-</html>
+<?php include("header.php")?>
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <div
+                class="h-100 p-5 text-white bg-primary border rounded-3">
+                <h2>Bienvenidos</h2>
+                <p>Este es un portafolio privado</p>
+                <p>Más informacióon</p>
+            </div>
+        </div>
+    </div>
+<?php include("footer.php")?>
