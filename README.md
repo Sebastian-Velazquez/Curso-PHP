@@ -1,2 +1,2 @@
-Munitos del curso: 6:46:02
+Munitos del curso: Finalizado
 https://www.youtube.com/watch?v=nCB1gEkRZ1g

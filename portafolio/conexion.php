@@ -14,7 +14,7 @@
                 return "falla de conexion".$error;
             }
         }
-        //Insertar dato
+        //Insertar|delete|Modifcar dato
         public function ejecutar($sql){
             $this->conexion->exec($sql);
             return $this->conexion->lastInsertID();
