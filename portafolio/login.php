@@ -1,6 +1,9 @@
 <?php
+session_start();
     if($_POST){
         if(($_POST['usuario']=="admin") && ($_POST['password'] == "12345")){
+            $_SESSION['usuario']='admin';
+            
             header("location:index.php");
         }else{
             echo "no esta logueado";

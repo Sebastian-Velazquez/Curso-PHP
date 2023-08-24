@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(isset($_SESSION['usuario'])!='admin'){
+        header("location:login.php");
+    }
+    print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
